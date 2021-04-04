@@ -3,7 +3,7 @@ body{margin: 0;}
 .title{
 padding: 10px;
 text-align: center;
-background-color:#92a8d1;
+background-color:#94A187;
 color: whitesmoke;
 font-size: 30px;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -35,7 +35,8 @@ width: 100%;
 .main{
     padding: 16px;
     margin-top: 30px;
-    height:1500px;   /*to enable scrolling*/
+    margin-bottom: 50px;
+    height: 1000px;   /*to enable scrolling*/
     background-color: white;
 }
 footer{
@@ -45,8 +46,8 @@ footer{
 }
     img {
         display: block;
-        float: right;
-        margin-left: auto;
+        float: left;
+        margin-left: 200px;
         margin-right: auto;
         width: 30%;
         padding: 10px;
@@ -57,3 +58,80 @@ footer{
     clear: both;
     display: table;
 }
+
+.firstpart{
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    margin-left: 1px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#firstparttitle {
+    text-align: center;
+    font-size: 50px;
+    float: left;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.column{
+    box-sizing: border-box;
+    margin-top: -250px;
+    margin-bottom: 5px;
+    background-color:#F4EBE8;
+    padding: 1em 2em;
+ }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  /* .row {
+    display:grid;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 110%;
+    height: 200%;
+  } */
+
+/* .firstbox{   
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 10px;
+    border: midnightblue;
+    border-style: solid;
+    margin-top: -250px;
+}
+
+.secondbox{
+    width: 33.33%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: midnightblue;
+    border-style: solid;
+    margin-top: -250px;
+}
+
+.thirdbox{
+    width: 33.33%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: midnightblue;
+    border-style: solid;
+    margin-top: -250px;  
+} */
