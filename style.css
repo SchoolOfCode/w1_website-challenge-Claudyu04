@@ -85,21 +85,21 @@ footer{
     font-family:'Times New Roman', Times, serif
 }
 
-.column{
+/* .column{
     box-sizing: border-box;
     margin-top: -250px;
     margin-bottom: 5px;
     background-color:#F4EBE8;
     padding: 1em 2em;
-}
+} */
   
   /* Create three equal columns that floats next to each other */
-  .column {
+  /* .column {
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
+    height: 300px; Should be removed. Only for demonstration
+  } */
   
   /* Clear floats after the columns */
   /* .row {
@@ -143,3 +143,27 @@ footer{
     border-style: solid;
     margin-top: -250px;  
 } */
+/* 
+source of info - w3school flexbox and flex container */
+
+.flex-container{
+    display: flex;
+    background-color:white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -350px;
+}
+
+.flex-container > div {
+background-color:#77BA99;
+width: 400px;
+height: 300px;
+margin:50px;
+border-radius: 20%;
+}
+h2{
+    text-align: center;
+}
