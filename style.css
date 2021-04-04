@@ -156,7 +156,12 @@ source of info - w3school flexbox and flex container */
     align-items: center;
     margin-top: -350px;
 }
-
+/* setted the same hoover for navbar as per containers */
+.flex-container :hover{
+    background: #80ced6;
+    color: #d5f4e6;
+}
+  
 .flex-container > div {
 background-color:#77BA99;
 width: 400px;
