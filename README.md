@@ -1,10 +1,8 @@
-# Website Challenge
+# Shola Website
 
 ## Overview
 
-For your first project on the bootcamp, we want you to make a website all about your pair partner using HTML and CSS.
-
-The person you are making your website for is your partner, aka The Client. It is your job as a programmer to understand what the client wants from a profile site, assess what information is available and useful, design what serves the audience of users (aka the other bootcampers) best from the experience, and then create something which best solves those needs. You won't be given any guidance of what to build - you'll need to empathise with your users to see what they would find useful (or even survey and talk to them), and plan your site accordingly.
+For your first project on the bootcamp, I have discussed with Shola and sent him 
 
 ## Outcome
 
