@@ -102,8 +102,8 @@ p{
 }
 /* setted the same hoover for navbar as per containers */
 .flex-container :hover{
-    background: #80ced6;
-    color: #d5f4e6;
+    background: #ffc478;
+    color: black;
 }
   
 .flex-container > div {
